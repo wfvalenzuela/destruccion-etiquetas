@@ -52,7 +52,7 @@
 .card-body h3 {
   font-size: 2rem;
   margin: 20px 0 10px;
-  color: aqua;
+  color: rgb(108, 150, 56);
 }
 
 .footer-afinoa {
@@ -75,5 +75,27 @@
 }
 
 main {
-  width: 99%;
+  width: 95%;
+}
+
+h1,
+h2 {
+  color: rgb(52, 69, 137);
+}
+
+/* Agrandar párrafos dentro del contenedor principal */
+main p {
+  font-size: 1.2rem;
+  /* Aumenta el tamaño un 15% (aprox 18.4px) */
+  line-height: 1.6;
+  /* Mejora el interlineado para facilitar la lectura */
+}
+
+main ul {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+body {
+  background-color: rgb(108, 150, 56);
 }
