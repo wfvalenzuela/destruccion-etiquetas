@@ -75,7 +75,19 @@
 }
 
 main {
-  width: 95%;
+  width: 92%;
+  /* Deja un 4% de margen libre a cada lado en móviles */
+  margin-left: auto;
+  margin-right: auto;
+  border: 8px solid rgb(108, 150, 56);
+  /* Tu borde verde */
+}
+
+/* En pantallas de computadora (MD para arriba) vuelve a su ancho estándar */
+@media (min-width: 768px) {
+  main {
+    width: 100%;
+  }
 }
 
 h1,
