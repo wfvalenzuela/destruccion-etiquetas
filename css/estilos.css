@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-afinoa {
+  background: rgb(249, 244, 244);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.frase {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: rgb(108, 150, 56);
+}
+
+.botones {
+  display: flex;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+
+.btn-nav {
+  color: rgb(243, 194, 53);
+  text-decoration: none;
+  padding: .5rem 1rem;
+  border-radius: 6px;
+  background: rgb(108, 150, 56);
+  transition: background-color 0.3s ease;
+}
+
+.btn-nav:hover {
+  background: rgb(52, 69, 137);
+}
+
+@media(max-width: 600px) {
+  .nav-afinoa {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.card-body h3 {
+  font-size: 2rem;
+  margin: 20px 0 10px;
+  color: aqua;
+}
+
+.footer-afinoa {
+  background: rgb(249, 244, 244);
+  color: #000;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+.footer-afinoa img {
+  max-width: 120px;
+  height: auto;
+}
+
+.copyright {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0;
+  color: #000;
+}
