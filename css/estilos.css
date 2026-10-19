@@ -81,6 +81,8 @@ main {
   margin-right: auto;
   border: 8px solid rgb(108, 150, 56);
   /* Tu borde verde */
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 /* En pantallas de computadora (MD para arriba) vuelve a su ancho estándar */
@@ -110,4 +112,18 @@ main ul {
 
 body {
   background-color: rgb(108, 150, 56);
+}
+
+.texto-solo {
+  color: rgb(52, 69, 137);
+}
+
+.btn-afinoa {
+  background-color: rgb(108, 150, 56);
+  color: rgb(243, 194, 53);
+}
+
+.btn-afinoa:hover {
+  background-color: rgb(52, 69, 137);
+  color: rgb(243, 194, 53);
 }
